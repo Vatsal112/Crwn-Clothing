@@ -1,0 +1,39 @@
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.logo-container {
+  padding: 25px;
+
+  @media (max-width: 500px) {
+    padding: 0px;
+  }
+}
+
+.nav-links-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}
+
+.nav-link {
+  padding: 10px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+
+  @media (max-width: 500px) {
+    padding: 10px 5px;
+  }
+}

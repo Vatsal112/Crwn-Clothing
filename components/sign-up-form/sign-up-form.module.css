@@ -1,0 +1,21 @@
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+  .h2 {
+    margin: 10px 0px;
+  }
+
+  @media (max-width: 993px) {
+    padding-top: 40px;
+  }
+
+  @media (max-width: 500px) {
+    width: 300px;
+  }
+
+  @media (max-width: 376px) {
+    width: 250px;
+  }
+}
